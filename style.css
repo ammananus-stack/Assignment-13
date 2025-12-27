@@ -1,0 +1,172 @@
+/* CSS RESET */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Header start */
+header{
+    background-color: #d9d9d9;
+    padding: 0.5rem 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.w-80{
+    width: 80%;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #0E0D0D;
+}
+header button{
+    background-color: #382525;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* HERO SECTION */
+#hero-section {
+    background-color: #3F1919;
+    color: white;
+    padding: 86px 0px;
+} 
+
+.center{
+    text-align: center;   
+}
+
+#hero-section h1,p{
+    margin-bottom: 20px;
+}
+
+#hero-section button{
+    background-color: #E26464;
+    border-radius: 10px;
+    padding: 14px 28px;
+    color: #ffffff;
+}
+
+/* GRID SECTION */
+#Grid-Section{
+    background-color: #fffdfd;
+    padding: 86px 0px;
+}
+
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -40px;
+}
+
+.card{
+    width: 300px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    border-radius: 20px;
+    color: #0E0D0D;
+    row-gap: 10px;
+    margin-top: 30px;
+}
+
+.card a{
+    color: #000000;
+}
+
+.author{
+    text-align: right;
+}
+
+/* FOOTER */
+footer{
+    background-color: #3F1919;
+    color: #000000;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #d9d9d9;
+    padding: 30px 0px;
+}
+
+.footer-row div{
+    width: 160px;
+}
+
+.footer-row div h3{
+    margin-bottom: 23px;
+}
+
+.newsletter{
+    display: flex;    
+}
+
+.newsletter button,input{
+    padding: 10px 5px;
+}
+
+.newsletter input{
+    background-color: #FFF3F3;
+    border: 0px;
+}
+
+.newsletter button{
+    background-color: #E26464;
+    border: 0px;
+}
+
+.copyright{
+    background-color: #E26464;
+    color: #ffffff;
+    padding: 15px;
+
+}
+
+.copyright a{
+    color: #ffffff;
+}
+
+.copyright ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright p{
+    margin: 0px;
+}
